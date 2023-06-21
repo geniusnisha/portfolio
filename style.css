@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidebar{
+ position: absolute;
+ background-color: rgb(118, 136, 153);
+ width: 30vh;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ height: 100vh;
+ transition: transform 0.3s ease-in;
+ 
+}
+.slidebar nav{
+ padding: 45px;
+}
+.slidebar nav li{
+ list-style: none;
+ font-size: 30px;
+ padding: 33px 0;
+}
+.side{
+    text-decoration: none;
+    color: rgb(45, 41, 41);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+ background-color: rgb(118, 136, 153);
+ width: 900vw;
+ height: 100vh;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.infocontainer{
+background-color: rgb(255, 251, 251);
+height: 78vh;
+width: 78vw;
+margin: 50px ;
+display: flex;
+justify-content: space-around;
+}
+.text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 30px;
+
+}
+.image{
+ height: 70vh;
+}
+.image img{
+    width: 180px;
+    height: 55vh;
+    margin-top: 60px;
+   
+}
+.buttons{
+    margin-top: 10px;
+}
+.buttons button{
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    background-color: rgb(129, 243, 243);
+    cursor:pointer;
+
+}
+.hello{
+ font-size: 40px;
+ font-weight: 100px;
+ font-family: 'Praise', cursive;
+}
+.dev{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Praise', cursive;
+}
+.dance{
+    font-family: 'Praise', cursive;
+
+}
+.contactform h1{
+    text-align: center;
+    font-family: 'Praise', cursive;
+    color:rgb(67, 62, 72);;
+    
+}
+.mains{
+ background-color: rgb(243, 243, 235);
+ width: 900vw;
+ height: 100vh;
+}
+.Main{
+    background-color: rgb(243, 243, 235);
+    width: 900vw;
+    height: 100vh;
+}
+form.row.g-3 {
+    padding-left: 300px;
+}
+img.card-img {
+    width: 100%;
+    height: 310px;
+}
+.card-body {
+    padding-left: 30px;
+}
+h1.card-title {
+    color: rgb(85, 73, 107);
+}
+.maincontent{
+    background-color: rgb(243, 243, 235);
+}
+h1 {
+    text-align: center;
+    color: rgb(67, 62, 72);
+    font-family: 'Praise', cursive;
+    padding: 20px;
+
+}
+p{
+    font-family: 'Praise', cursive;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+a.btn.btn-primary {
+    text-decoration: none;
+}
+button.btn.btn-primary{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(136, 255, 215);
+}
+h3{
+    font-family: 'Praise', cursive;
+    padding: 30px;
+}
+ul.lists {
+    font-family: 'Praise', cursive;
+    padding-left: 250px;
+    padding-right: 100px;
+
+}
+.slidebargo{
+    transform: translate(-444px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.cross{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+@media only screen and (max-width:600px) {
+.slidebar{
+    width: 20vh;
+} 
+.image{
+    display: none;
+}
+    
+}
